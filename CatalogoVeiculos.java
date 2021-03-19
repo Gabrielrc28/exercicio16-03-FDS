@@ -21,7 +21,7 @@ public class CatalogoVeiculos{
 
 
 
-        Scanner in = new Scanner(System.in);
+        /*Scanner in = new Scanner(System.in);*/
 
         System.out.println("Procura por \n1)Placa \n2)Marca \n3)Modelo \n4)Ano \n5)Valor");
 
