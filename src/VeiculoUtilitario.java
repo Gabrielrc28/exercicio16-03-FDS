@@ -2,9 +2,7 @@ public class VeiculoUtilitario extends Veiculo{
     private int nroEixos;
     private int capCargaTon;
 
-    public VeiculoUtilitario(String placa) {
-        super(placa);
-    }
+    public VeiculoUtilitario() {}
 
     public int getNroEixos() {
         return nroEixos;
@@ -20,5 +18,12 @@ public class VeiculoUtilitario extends Veiculo{
 
     public void setCapCargaTon(int capCargaTon) {
         this.capCargaTon = capCargaTon;
+    }
+
+    @Override
+    public String toString(){
+        return "Marca: " + getMarca() + " Modelo: " + getModelo() + " Placa: " + getPlaca()
+                + " Ano: " + getAno() + " Valor: " + getValor() + " Capacidade de Carga: "
+                + getCapCargaTon() + " Nro. de eixos: " + getNroEixos();
     }
 }

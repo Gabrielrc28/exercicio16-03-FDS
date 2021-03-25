@@ -5,9 +5,15 @@ public class Veiculo {
     private int ano;
     private Double valor;
 
-    public Veiculo(String placa) {
+    public Veiculo(String placa, String marca, String modelo, int ano, Double valor) {
         this.placa = placa;
+        this.ano = ano;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.valor = valor;
     }
+
+    public Veiculo() {}
 
     public String getPlaca() {
         return placa;
